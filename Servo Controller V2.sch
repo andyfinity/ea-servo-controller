@@ -3,7 +3,7 @@
 <eagle version="9.3.0">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -809,6 +809,36 @@ Source: &lt;a href="http://docs-emea.rs-online.com/webdocs/1345/0900766b8134501b
 <text x="0" y="2.6436" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-2.2036" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
+<package name="SODFL3616X98" urn="urn:adsk.eagle:footprint:4270853/1" library_version="4" library_locally_modified="yes">
+<description>SODFL, 3.6 mm span, 2.7 X 1.65 X 0.98 mm body
+&lt;p&gt;SODFL package with 3.6 mm span with body size 2.7 X 1.65 X 0.98 mm&lt;/p&gt;</description>
+<wire x1="1.45" y1="0.9" x2="-2.4217" y2="0.9" width="0.12" layer="21"/>
+<wire x1="-2.4217" y1="0.9" x2="-2.4217" y2="-0.9" width="0.12" layer="21"/>
+<wire x1="-2.4217" y1="-0.9" x2="1.45" y2="-0.9" width="0.12" layer="21"/>
+<wire x1="1.45" y1="-0.9" x2="-1.45" y2="-0.9" width="0.12" layer="51"/>
+<wire x1="-1.45" y1="-0.9" x2="-1.45" y2="0.9" width="0.12" layer="51"/>
+<wire x1="-1.45" y1="0.9" x2="1.45" y2="0.9" width="0.12" layer="51"/>
+<wire x1="1.45" y1="0.9" x2="1.45" y2="-0.9" width="0.12" layer="51"/>
+<smd name="1" x="-1.49" y="0" dx="1.2354" dy="1.1153" layer="1"/>
+<smd name="2" x="1.49" y="0" dx="1.2354" dy="1.1153" layer="1"/>
+<text x="0" y="1.535" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.535" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="DIOM4326X240" urn="urn:adsk.eagle:footprint:9343994/1" library_version="4" library_locally_modified="yes">
+<description>Molded Body, 4.30 X 2.60 X 2.40 mm body
+&lt;p&gt;Molded Body package with body size 4.30 X 2.60 X 2.40 mm&lt;/p&gt;</description>
+<wire x1="2.3" y1="1.46" x2="-3.1192" y2="1.46" width="0.12" layer="21"/>
+<wire x1="-3.1192" y1="1.46" x2="-3.1192" y2="-1.46" width="0.12" layer="21"/>
+<wire x1="-3.1192" y1="-1.46" x2="2.3" y2="-1.46" width="0.12" layer="21"/>
+<wire x1="2.3" y1="-1.46" x2="-2.3" y2="-1.46" width="0.12" layer="51"/>
+<wire x1="-2.3" y1="-1.46" x2="-2.3" y2="1.46" width="0.12" layer="51"/>
+<wire x1="-2.3" y1="1.46" x2="2.3" y2="1.46" width="0.12" layer="51"/>
+<wire x1="2.3" y1="1.46" x2="2.3" y2="-1.46" width="0.12" layer="51"/>
+<smd name="1" x="-1.6774" y="0" dx="2.2554" dy="1.547" layer="1"/>
+<smd name="2" x="1.6774" y="0" dx="2.2554" dy="1.547" layer="1"/>
+<text x="0" y="2.095" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.095" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="TT_23B" urn="urn:adsk.eagle:package:6848969/2" type="model" library_version="4">
@@ -884,6 +914,20 @@ Source: &lt;a href="http://docs-emea.rs-online.com/webdocs/1345/0900766b8134501b
 &lt;p&gt;3-pin SOT23 package with 0.95 mm pitch, 2.40 mm span with body size 2.90 X 1.30 X 1.10 mm&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="SOT95P240X110-3"/>
+</packageinstances>
+</package3d>
+<package3d name="SODFL3616X98" urn="urn:adsk.eagle:package:4270842/1" type="model" library_version="4" library_locally_modified="yes">
+<description>SODFL, 3.6 mm span, 2.7 X 1.65 X 0.98 mm body
+&lt;p&gt;SODFL package with 3.6 mm span with body size 2.7 X 1.65 X 0.98 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SODFL3616X98"/>
+</packageinstances>
+</package3d>
+<package3d name="DIOM4326X240" urn="urn:adsk.eagle:package:9343984/1" type="model" library_version="4" library_locally_modified="yes">
+<description>Molded Body, 4.30 X 2.60 X 2.40 mm body
+&lt;p&gt;Molded Body package with body size 4.30 X 2.60 X 2.40 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="DIOM4326X240"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -967,6 +1011,18 @@ Source: &lt;a href="http://docs-emea.rs-online.com/webdocs/1345/0900766b8134501b
 <wire x1="2.54" y1="0.508" x2="2.54" y2="-0.508" width="0.1524" layer="94"/>
 <wire x1="2.54" y1="0.508" x2="3.302" y2="1.27" width="0.1524" layer="94"/>
 <wire x1="2.54" y1="-0.508" x2="1.778" y2="-1.27" width="0.1524" layer="94"/>
+<text x="-2.54" y="2.54" size="2.032" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-4.572" size="2.032" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="D-SCHOTTKY-US" urn="urn:adsk.eagle:symbol:6848958/1" library_version="4" library_locally_modified="yes">
+<pin name="A" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+<pin name="C" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<wire x1="0" y1="-1.27" x2="0" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="0" y1="1.27" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0" x2="0" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="1.27" x2="2.54" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="1.27" x2="3.302" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-1.27" x2="1.778" y2="-1.27" width="0.1524" layer="94"/>
 <text x="-2.54" y="2.54" size="2.032" layer="95">&gt;NAME</text>
 <text x="-2.54" y="-4.572" size="2.032" layer="96">&gt;VALUE</text>
 </symbol>
@@ -1133,6 +1189,37 @@ Source: &lt;a href="http://docs-emea.rs-online.com/webdocs/1345/0900766b8134501b
 </connects>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:7114985/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DIODE-SCHOTTKY" urn="urn:adsk.eagle:component:6848973/1" locally_modified="yes" prefix="D" uservalue="yes" library_version="4" library_locally_modified="yes">
+<gates>
+<gate name="G$1" symbol="D-SCHOTTKY-US" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-ON-MBR130LSFT1G" package="SODFL3616X98">
+<connects>
+<connect gate="G$1" pin="A" pad="2"/>
+<connect gate="G$1" pin="C" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:4270842/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-DIODES-B1X0" package="DIOM4326X240">
+<connects>
+<connect gate="G$1" pin="A" pad="2"/>
+<connect gate="G$1" pin="C" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:9343984/1"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -1544,6 +1631,9 @@ Source: &lt;a href="http://docs-emea.rs-online.com/webdocs/1345/0900766b8134501b
 <part name="P18" library="supply" library_urn="urn:adsk.eagle:library:8729613" deviceset="+5V" device=""/>
 <part name="P19" library="supply" library_urn="urn:adsk.eagle:library:8729613" deviceset="+5V" device=""/>
 <part name="P20" library="supply" library_urn="urn:adsk.eagle:library:8729613" deviceset="+5V" device=""/>
+<part name="C9" library="lcr" library_urn="urn:adsk.eagle:library:3920968" deviceset="CAPACITOR" device="-1206" package3d_urn="urn:adsk.eagle:package:4274891/1" value="10µ 25V"/>
+<part name="D4" library="lcr" library_urn="urn:adsk.eagle:library:3920968" deviceset="DIODE-SCHOTTKY" device="-ON-MBR130LSFT1G" package3d_urn="urn:adsk.eagle:package:4270842/1" value="MBR130LSFT1G"/>
+<part name="GND20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1573,9 +1663,9 @@ Source: &lt;a href="http://docs-emea.rs-online.com/webdocs/1345/0900766b8134501b
 <attribute name="NAME" x="68.58" y="170.942" size="1.778" layer="95"/>
 <attribute name="VALUE" x="68.58" y="168.402" size="1.778" layer="96"/>
 </instance>
-<instance part="P2" gate="A" x="63.5" y="93.98" smashed="yes" rot="MR0">
-<attribute name="NAME" x="69.85" y="99.695" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="69.85" y="86.36" size="1.778" layer="96" rot="MR0"/>
+<instance part="P2" gate="A" x="58.42" y="93.98" smashed="yes" rot="MR0">
+<attribute name="NAME" x="64.77" y="99.695" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="64.77" y="86.36" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="R1" gate="G$1" x="190.5" y="60.96" smashed="yes">
 <attribute name="NAME" x="185.42" y="61.976" size="1.778" layer="95"/>
@@ -1658,8 +1748,8 @@ Source: &lt;a href="http://docs-emea.rs-online.com/webdocs/1345/0900766b8134501b
 <instance part="GND11" gate="1" x="248.92" y="55.88" smashed="yes">
 <attribute name="VALUE" x="248.92" y="55.626" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="GND12" gate="1" x="73.66" y="76.2" smashed="yes">
-<attribute name="VALUE" x="73.66" y="75.946" size="1.778" layer="96" align="top-center"/>
+<instance part="GND12" gate="1" x="68.58" y="76.2" smashed="yes">
+<attribute name="VALUE" x="68.58" y="75.946" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="GND13" gate="1" x="27.94" y="76.2" smashed="yes">
 <attribute name="VALUE" x="27.94" y="75.946" size="1.778" layer="96" align="top-center"/>
@@ -1710,9 +1800,9 @@ Source: &lt;a href="http://docs-emea.rs-online.com/webdocs/1345/0900766b8134501b
 <attribute name="NAME" x="55.88" y="38.354" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="58.42" y="36.068" size="1.778" layer="96"/>
 </instance>
-<instance part="R4" gate="G$1" x="81.28" y="91.44" smashed="yes">
-<attribute name="NAME" x="78.74" y="91.694" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="81.28" y="89.408" size="1.778" layer="96"/>
+<instance part="R4" gate="G$1" x="91.44" y="91.44" smashed="yes">
+<attribute name="NAME" x="88.9" y="91.694" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="91.44" y="89.408" size="1.778" layer="96"/>
 </instance>
 <instance part="R3" gate="G$1" x="58.42" y="22.86" smashed="yes">
 <attribute name="NAME" x="55.88" y="23.114" size="1.778" layer="95" rot="MR0"/>
@@ -1781,8 +1871,19 @@ Source: &lt;a href="http://docs-emea.rs-online.com/webdocs/1345/0900766b8134501b
 <instance part="P16" gate="G$1" x="236.22" y="170.18" smashed="yes"/>
 <instance part="P17" gate="G$1" x="157.48" y="170.18" smashed="yes"/>
 <instance part="P18" gate="G$1" x="58.42" y="170.18" smashed="yes"/>
-<instance part="P19" gate="G$1" x="76.2" y="104.14" smashed="yes"/>
+<instance part="P19" gate="G$1" x="86.36" y="101.6" smashed="yes"/>
 <instance part="P20" gate="G$1" x="137.16" y="111.76" smashed="yes"/>
+<instance part="C9" gate="G$1" x="76.2" y="83.82" smashed="yes" rot="R90">
+<attribute name="NAME" x="73.66" y="81.28" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="80.518" y="81.28" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="D4" gate="G$1" x="81.28" y="93.98" smashed="yes" rot="MR0">
+<attribute name="NAME" x="76.2" y="97.536" size="2.032" layer="95"/>
+<attribute name="VALUE" x="75.438" y="95.758" size="1.016" layer="96"/>
+</instance>
+<instance part="GND20" gate="1" x="76.2" y="76.2" smashed="yes">
+<attribute name="VALUE" x="76.2" y="75.946" size="1.778" layer="96" align="top-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -1864,8 +1965,8 @@ Source: &lt;a href="http://docs-emea.rs-online.com/webdocs/1345/0900766b8134501b
 <segment>
 <pinref part="P2" gate="A" pin="1"/>
 <pinref part="GND12" gate="1" pin="GND"/>
-<wire x1="66.04" y1="96.52" x2="73.66" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="96.52" x2="73.66" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="96.52" x2="68.58" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="96.52" x2="68.58" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="P3" gate="A" pin="6"/>
@@ -1925,6 +2026,11 @@ Source: &lt;a href="http://docs-emea.rs-online.com/webdocs/1345/0900766b8134501b
 <pinref part="GND19" gate="1" pin="GND"/>
 <wire x1="22.86" y1="144.78" x2="22.86" y2="147.32" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="C9" gate="G$1" pin="P$1"/>
+<wire x1="76.2" y1="81.28" x2="76.2" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="GND20" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="UPDI" class="0">
 <segment>
@@ -1939,62 +2045,62 @@ Source: &lt;a href="http://docs-emea.rs-online.com/webdocs/1345/0900766b8134501b
 <wire x1="38.1" y1="93.98" x2="38.1" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="93.98" x2="40.64" y2="93.98" width="0.1524" layer="91"/>
 <junction x="38.1" y="93.98"/>
-<label x="40.64" y="93.98" size="1.27" layer="255" xref="yes"/>
+<label x="40.64" y="93.98" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SET_HIGH" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PA7"/>
 <wire x1="193.04" y1="88.9" x2="187.96" y2="88.9" width="0.1524" layer="91"/>
-<label x="187.96" y="88.9" size="1.27" layer="255" rot="R180" xref="yes"/>
+<label x="187.96" y="88.9" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="R2" gate="G$1" pin="P$2"/>
 <wire x1="218.44" y1="63.5" x2="218.44" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="218.44" y1="66.04" x2="226.06" y2="66.04" width="0.1524" layer="91"/>
-<label x="226.06" y="66.04" size="1.27" layer="255" xref="yes"/>
+<label x="226.06" y="66.04" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SET_LOW" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PA6"/>
 <wire x1="193.04" y1="91.44" x2="187.96" y2="91.44" width="0.1524" layer="91"/>
-<label x="187.96" y="91.44" size="1.27" layer="255" rot="R180" xref="yes"/>
+<label x="187.96" y="91.44" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="R1" gate="G$1" pin="P$2"/>
 <wire x1="190.5" y1="63.5" x2="190.5" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="66.04" x2="198.12" y2="66.04" width="0.1524" layer="91"/>
-<label x="198.12" y="66.04" size="1.27" layer="255" xref="yes"/>
+<label x="198.12" y="66.04" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="POT_IN" class="0">
 <segment>
-<label x="187.96" y="86.36" size="1.27" layer="255" rot="R180" xref="yes"/>
+<label x="187.96" y="86.36" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="U1" gate="G$1" pin="PA1"/>
 <wire x1="187.96" y1="86.36" x2="193.04" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R9" gate="G$1" pin="P$2"/>
 <wire x1="60.96" y1="27.94" x2="68.58" y2="27.94" width="0.1524" layer="91"/>
-<label x="68.58" y="27.94" size="1.27" layer="255" xref="yes"/>
+<label x="68.58" y="27.94" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="R14" gate="G$1" pin="P$2"/>
 <wire x1="86.36" y1="30.48" x2="86.36" y2="33.02" width="0.1524" layer="91"/>
-<label x="86.36" y="33.02" size="1.778" layer="95" rot="R90" xref="yes"/>
+<label x="86.36" y="33.02" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="SERVO" class="0">
 <segment>
-<label x="238.76" y="86.36" size="1.27" layer="255" xref="yes"/>
+<label x="238.76" y="86.36" size="1.27" layer="95" xref="yes"/>
 <pinref part="U1" gate="G$1" pin="PA2"/>
 <wire x1="238.76" y1="86.36" x2="233.68" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R4" gate="G$1" pin="P$2"/>
-<wire x1="83.82" y1="91.44" x2="88.9" y2="91.44" width="0.1524" layer="91"/>
-<label x="88.9" y="91.44" size="1.778" layer="95" xref="yes"/>
+<wire x1="93.98" y1="91.44" x2="99.06" y2="91.44" width="0.1524" layer="91"/>
+<label x="99.06" y="91.44" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -2036,24 +2142,24 @@ Source: &lt;a href="http://docs-emea.rs-online.com/webdocs/1345/0900766b8134501b
 <segment>
 <pinref part="U1" gate="G$1" pin="PA3/EXTCLK"/>
 <wire x1="233.68" y1="91.44" x2="238.76" y2="91.44" width="0.1524" layer="91"/>
-<label x="238.76" y="91.44" size="1.27" layer="255" xref="yes"/>
+<label x="238.76" y="91.44" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="Q1" gate="G$1" pin="G"/>
 <wire x1="124.46" y1="78.74" x2="121.92" y2="78.74" width="0.1524" layer="91"/>
-<label x="121.92" y="78.74" size="1.27" layer="255" rot="R180" xref="yes"/>
+<label x="121.92" y="78.74" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="R13" gate="G$1" pin="P$2"/>
 <wire x1="60.96" y1="30.48" x2="68.58" y2="30.48" width="0.1524" layer="91"/>
-<label x="68.58" y="30.48" size="1.27" layer="255" xref="yes"/>
+<label x="68.58" y="30.48" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$10" class="0">
 <segment>
 <pinref part="P2" gate="A" pin="3"/>
 <pinref part="R4" gate="G$1" pin="P$1"/>
-<wire x1="66.04" y1="91.44" x2="76.2" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="91.44" x2="86.36" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -2229,12 +2335,6 @@ Source: &lt;a href="http://docs-emea.rs-online.com/webdocs/1345/0900766b8134501b
 <pinref part="P18" gate="G$1" pin="+5V"/>
 </segment>
 <segment>
-<pinref part="P2" gate="A" pin="2"/>
-<wire x1="66.04" y1="93.98" x2="76.2" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="93.98" x2="76.2" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="P19" gate="G$1" pin="+5V"/>
-</segment>
-<segment>
 <pinref part="R6" gate="G$1" pin="P$2"/>
 <wire x1="129.54" y1="104.14" x2="129.54" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="106.68" x2="137.16" y2="106.68" width="0.1524" layer="91"/>
@@ -2244,6 +2344,12 @@ Source: &lt;a href="http://docs-emea.rs-online.com/webdocs/1345/0900766b8134501b
 <wire x1="137.16" y1="109.22" x2="137.16" y2="106.68" width="0.1524" layer="91"/>
 <junction x="137.16" y="106.68"/>
 <pinref part="P20" gate="G$1" pin="+5V"/>
+</segment>
+<segment>
+<pinref part="D4" gate="G$1" pin="A"/>
+<wire x1="83.82" y1="93.98" x2="86.36" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="93.98" x2="86.36" y2="99.06" width="0.1524" layer="91"/>
+<pinref part="P19" gate="G$1" pin="+5V"/>
 </segment>
 </net>
 <net name="N$15" class="0">
@@ -2261,6 +2367,16 @@ Source: &lt;a href="http://docs-emea.rs-online.com/webdocs/1345/0900766b8134501b
 <wire x1="33.02" y1="165.1" x2="40.64" y2="165.1" width="0.1524" layer="91"/>
 <junction x="33.02" y="165.1"/>
 <junction x="40.64" y="165.1"/>
+</segment>
+</net>
+<net name="N$19" class="0">
+<segment>
+<pinref part="P2" gate="A" pin="2"/>
+<wire x1="60.96" y1="93.98" x2="76.2" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="D4" gate="G$1" pin="C"/>
+<pinref part="C9" gate="G$1" pin="P$2"/>
+<wire x1="76.2" y1="93.98" x2="76.2" y2="88.9" width="0.1524" layer="91"/>
+<junction x="76.2" y="93.98"/>
 </segment>
 </net>
 </nets>

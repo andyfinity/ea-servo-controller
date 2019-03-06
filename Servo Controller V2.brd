@@ -143,6 +143,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <board>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyYTRiMmQy" projecturn="a.cGVyc29uYWw6dWUyYTRiMmQyIzIwMTcxMjI3MTA5OTM1NzI2" f3durn="urn:adsk.wipprod:dm.lineage:PpBJHXuUREOfGaQz9pWU0A" pcbguid="c0488916-b52c-4e85-8943-ab9555ab079e" lastpulledtime="" lastsyncedchangeguid="bafbf799-f43d-3f73-44a9-28bf91460bd9"/>
 <plain>
 <wire x1="0.889" y1="-6.731" x2="32.131" y2="-6.731" width="0" layer="20"/>
 <wire x1="32.131" y1="-6.731" x2="32.131" y2="52.451" width="0" layer="20"/>
@@ -287,6 +288,21 @@ ea-servo-controller</text>
 <text x="0" y="1.6296" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-1.6296" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
+<package name="SODFL3616X98" urn="urn:adsk.eagle:footprint:4270853/1" library_version="4" library_locally_modified="yes">
+<description>SODFL, 3.6 mm span, 2.7 X 1.65 X 0.98 mm body
+&lt;p&gt;SODFL package with 3.6 mm span with body size 2.7 X 1.65 X 0.98 mm&lt;/p&gt;</description>
+<wire x1="1.45" y1="0.9" x2="-2.4217" y2="0.9" width="0.12" layer="21"/>
+<wire x1="-2.4217" y1="0.9" x2="-2.4217" y2="-0.9" width="0.12" layer="21"/>
+<wire x1="-2.4217" y1="-0.9" x2="1.45" y2="-0.9" width="0.12" layer="21"/>
+<wire x1="1.45" y1="-0.9" x2="-1.45" y2="-0.9" width="0.12" layer="51"/>
+<wire x1="-1.45" y1="-0.9" x2="-1.45" y2="0.9" width="0.12" layer="51"/>
+<wire x1="-1.45" y1="0.9" x2="1.45" y2="0.9" width="0.12" layer="51"/>
+<wire x1="1.45" y1="0.9" x2="1.45" y2="-0.9" width="0.12" layer="51"/>
+<smd name="1" x="-1.49" y="0" dx="1.2354" dy="1.1153" layer="1"/>
+<smd name="2" x="1.49" y="0" dx="1.2354" dy="1.1153" layer="1"/>
+<text x="0" y="1.535" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.535" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="CAPC1608X90" urn="urn:adsk.eagle:package:3920972/1" type="model" library_version="4">
@@ -334,6 +350,13 @@ ea-servo-controller</text>
 &lt;p&gt;SODFL package with 3.50 mm span with body size 2.70 X 1.80 X 1.15 mm&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="SODFL3518X115"/>
+</packageinstances>
+</package3d>
+<package3d name="SODFL3616X98" urn="urn:adsk.eagle:package:4270842/1" type="model" library_version="4" library_locally_modified="yes">
+<description>SODFL, 3.6 mm span, 2.7 X 1.65 X 0.98 mm body
+&lt;p&gt;SODFL package with 3.6 mm span with body size 2.7 X 1.65 X 0.98 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SODFL3616X98"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -1177,6 +1200,14 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="27.7714" y="12.7" size="1.27" layer="28" rot="MR90" align="top-center"/>
 </element>
 <element name="U$2" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" package="OSHW-LOGO-MINI" package3d_urn="urn:adsk.eagle:package:37101/1" value="" x="29.21" y="45.72" smashed="yes" rot="MR0"/>
+<element name="C9" library="lcr" library_urn="urn:adsk.eagle:library:3920968" package="CAPC3216X180" package3d_urn="urn:adsk.eagle:package:4274891/1" value="10µ 25V" x="24.13" y="34.29" smashed="yes" rot="MR180">
+<attribute name="NAME" x="24.13" y="33.68569375" size="0.889" layer="26" ratio="10" rot="MR90" align="center-left"/>
+<attribute name="VALUE" x="24.13" y="36.1467" size="1.27" layer="28" rot="MR180" align="top-center"/>
+</element>
+<element name="D4" library="lcr" library_urn="urn:adsk.eagle:library:3920968" package="SODFL3616X98" package3d_urn="urn:adsk.eagle:package:4270842/1" value="MBR130LSFT1G" x="25.4" y="29.21" smashed="yes" rot="MR270">
+<attribute name="NAME" x="24.313" y="29.397" size="0.889" layer="26" ratio="10" rot="MR90" align="top-center"/>
+<attribute name="VALUE" x="26.935" y="29.21" size="1.27" layer="28" rot="MR270" align="top-center"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -1261,6 +1292,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="17.145" y="18.288" extent="1-16" drill="0.3302"/>
 <via x="16.637" y="22.352" extent="1-16" drill="0.3302"/>
 <via x="20.955" y="19.431" extent="1-16" drill="0.3302"/>
+<contactref element="C9" pad="1"/>
 </signal>
 <signal name="UPDI">
 <contactref element="U1" pad="6"/>
@@ -1502,13 +1534,13 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="U2" pad="4"/>
 <contactref element="U2" pad="5"/>
 <contactref element="C7" pad="2"/>
-<contactref element="P2" pad="2"/>
 <contactref element="R6" pad="2"/>
 <contactref element="R7" pad="2"/>
 <wire x1="11.5946" y1="29.21" x2="11.5946" y2="26.035" width="0.3048" layer="1"/>
 <wire x1="21.71" y1="20.32" x2="26.79" y2="20.32" width="0.3048" layer="1"/>
-<wire x1="25.4" y1="41.91" x2="25.4" y2="26.924" width="0.635" layer="16"/>
-<wire x1="25.4" y1="26.924" x2="20.066" y2="21.59" width="0.635" layer="16"/>
+<wire x1="25.053" y1="27.72" x2="20.066" y2="22.733" width="0.635" layer="16"/>
+<wire x1="20.066" y1="21.59" x2="20.066" y2="22.733" width="0.635" layer="16"/>
+<wire x1="25.4" y1="27.72" x2="25.053" y2="27.72" width="0.635" layer="16"/>
 <via x="20.066" y="21.59" extent="1-16" drill="0.4572"/>
 <wire x1="20.066" y1="22.6436" x2="18.5796" y2="24.13" width="0.635" layer="1"/>
 <wire x1="20.066" y1="22.6436" x2="20.066" y2="21.59" width="0.635" layer="1"/>
@@ -1524,6 +1556,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="11.5946" y1="26.035" x2="12.4836" y2="25.146" width="0.3048" layer="1"/>
 <wire x1="18.5796" y1="24.2194" x2="18.5796" y2="24.13" width="0.3048" layer="1"/>
 <wire x1="17.653" y1="25.146" x2="18.5796" y2="24.2194" width="0.3048" layer="1"/>
+<contactref element="D4" pad="2"/>
 </signal>
 <signal name="N$15">
 <contactref element="Q2" pad="2"/>
@@ -1547,6 +1580,15 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </signal>
 <signal name="N$17">
 <via x="5.08" y="48.26" extent="1-16" drill="3.50011875" diameter="6.604"/>
+</signal>
+<signal name="N$19">
+<contactref element="P2" pad="2"/>
+<contactref element="D4" pad="1"/>
+<contactref element="C9" pad="2"/>
+<wire x1="25.4" y1="30.7" x2="25.4" y2="34.1001" width="0.635" layer="16"/>
+<wire x1="25.4" y1="34.1001" x2="25.5899" y2="34.29" width="0.635" layer="16"/>
+<wire x1="25.4" y1="41.91" x2="25.4" y2="34.4799" width="0.635" layer="16"/>
+<wire x1="25.4" y1="34.4799" x2="25.5899" y2="34.29" width="0.635" layer="16"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
@@ -1572,6 +1614,11 @@ which will not be processed correctly with this version.
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
 with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports Fusion synchronisation.
+This feature will not be available in this version and saving
+the document will break the link to the Fusion PCB feature.
 </note>
 <note version="8.3" severity="warning">
 Since Version 8.3, EAGLE supports URNs for individual library
